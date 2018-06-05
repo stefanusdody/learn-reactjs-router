@@ -1,4 +1,5 @@
-.App {
+.buttonList {
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -14,8 +15,8 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.inputTitle {
+  margin-right: 5px
 }
 
 .App-intro {

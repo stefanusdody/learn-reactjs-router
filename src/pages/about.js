@@ -1,22 +1,15 @@
 import React from "react";
-
 import photo from "../photos/photo";
 import { Link, Route} from "react-router-dom";
+import { Button } from 'reactstrap';
 
 const About = ({match}) => {
       return (
           <div>
-            <ul>
-              <li>
-                <Link to={`${match.url}/adidas`}>adidas</Link>
-              </li>
-              <li>
-                <Link to={`${match.url}/Nike`}>Nike</Link>
-              </li>
-              <li>
-                <Link to={`${match.url}/puma`}>puma</Link>
-              </li>
-            </ul>
+          <h1>LOGO</h1>
+            <Button color="danger" href={`${match.url}/adidas`}>ADIDAS</Button>{' '}
+            <Button color="info" href={`${match.url}/Nike`}>NIKE</Button>{' '}
+            <Button color="primary" href={`${match.url}/puma`}>PUMA</Button>{' '}
             <Route path={`${match.url}/:person`} component={photo} />
           </div>
       );

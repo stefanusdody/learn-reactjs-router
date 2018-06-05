@@ -10,11 +10,8 @@ body {
   border-color: black;
 }
 
-.submitButton{
-  width: 5%;
-  height: 35px;
-  background-color: blue;
-  color: white;
+.buttonClik{
+  margin-left: 5px;
 }
 
 #inputId{
